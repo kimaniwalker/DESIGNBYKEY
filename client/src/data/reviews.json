@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "David Davinci",
+        "review":"I’m an office manager for a small business here in Birmingham, AL and we’ve noticed a great increase in calls and leads since we started working with KEY2DESIGN. KEY2DESIGN designed us an awesome website and now handles all of our marketing. 10 stars all the way!",
+        "date": "2021-02-22"
+    },
+    {
+        "id": 2,
+        "name": "Bernice Bourgous",
+        "review":"KEY2DESIGN is probably the most valuable component to my business. (And will be to yours, too). I have worked with Kimani for several years now and he is excellent to work with.  KEY2DESIGN has visionary, and the knowledge to make it happen. If you are a business owner, no matter the size, I highly suggest you compare with what you currently have to what KEY2DESIGN can offer you.",
+        "date": "2021-02-22"
+    }
+]

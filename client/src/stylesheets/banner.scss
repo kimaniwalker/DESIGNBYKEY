@@ -1,0 +1,7 @@
+@import './utilities/typography.scss';
+
+#banner {
+    background-image: url(../images/home/homepage.png);
+    background-size: cover;
+    min-height: 35vh;
+}

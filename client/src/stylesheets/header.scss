@@ -1,0 +1,19 @@
+@import './utilities/typography.scss';
+@import './utilities/variables.scss';
+
+.logo {
+    width: 10%;
+}
+
+#headerIcon:hover {
+    color: $secondary;
+}
+
+#linkItem:hover {
+    color: $secondary;
+}
+
+#linkItem {
+    font-size: 1.2rem;
+    font-family: $headline-font;
+}

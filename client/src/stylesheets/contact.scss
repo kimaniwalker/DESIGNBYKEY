@@ -1,0 +1,10 @@
+@import './utilities/variables.scss';
+@import './utilities/typography.scss';
+
+.subtitle {
+    color: $secondary
+}
+#contactBtn {
+    background-color: $secondary;
+    color: white;
+}
