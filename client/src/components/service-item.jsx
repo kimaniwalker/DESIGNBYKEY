@@ -18,7 +18,7 @@ export default function ServiceItem(props) {
                         <div class="card-body">
                             <h5 class="card-title text-xl-start text-lg-start text-md-center text-sm-center text-center">{props.title}</h5>
                             <p class="card-text text-xl-start text-lg-start text-md-center text-sm-center text-center">{props.description}</p>
-                            <p class="card-text text-xl-start text-lg-start text-md-center text-sm-center text-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text text-xl-start text-lg-start text-md-center text-sm-center text-center"><small class="text-muted">Contact us for more information on {props.title}</small></p>
                         </div>
                     </div>
                 </div>
