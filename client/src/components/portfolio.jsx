@@ -5,6 +5,7 @@ import img2 from '../images/home/code2.jpg'
 import kountry from '../images/home/kountry.PNG'
 import integrity from '../images/home/integrity.PNG'
 import stpaul from '../images/home/stpaul.PNG'
+import kc from '../images/home/kc.png'
 
 
 
@@ -14,7 +15,11 @@ export default function Portfolio(props) {
     return (
         <>
             <div className="container">
-                <div className="row p-3 justify-content-center">
+                <div className="row p-3">
+
+                    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 py-2">
+                        <PortfolioItem image={kc} title="Kustom Charmz Boutique" description="Stunning Ecommerce website" website="https://kustom-charmz.herokuapp.com/" />
+                    </div>
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 py-2">
                         <PortfolioItem image={kountry} title="Kountry Cookin" description="Beautiful online cookbook" website="https://still-hamlet-66612.herokuapp.com/" />
                     </div>
@@ -24,7 +29,8 @@ export default function Portfolio(props) {
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 py-2">
                         <PortfolioItem image={integrity} title="Integrity Bible Church" description="Stunning church website" website="https://integritybiblechurch.org/" />
                     </div>
-                    
+
+
                 </div>
             </div>
 

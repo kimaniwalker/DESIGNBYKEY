@@ -13,7 +13,7 @@ export default function PortfolioItem(props) {
                     <div class="card-body">
                         <h5 class="card-title">{props.title}</h5>
                         <p class="card-text">{props.description}</p>
-                        <a href={props.website} class="btn btn-primary">Vist Website</a>
+                        <a href={props.website} target={'_blank'} class="btn btn-primary">Vist Website</a>
                     </div>
                 </div>
 
